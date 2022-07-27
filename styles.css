@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', arial, sans-serif;
+}
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin: 20px 0 0 20px;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.nav button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    height: 36px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.nav button:hover {
+    cursor: pointer;
+    background-color: #4285f4;
+
+}
+
+.navright {
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+
+.main {
+    padding: 200px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+
+.user_input_main {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 40px;
+    border-radius: 50px;
+    border: .5px solid lightgrey;
+    margin: 20px auto;
+}
+
+.user_input input{
+    height: 34px;
+    width: 450px;
+    border: 0;
+    outline: 0;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.magnifying {
+    color: #9aa0a6 !important;
+    margin: 10px;
+
+}
+
+.mic {
+    margin-right: 5px;
+}
+
+.user_input_main:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    
+}
+
+.form_input input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+    min-width: 150px;
+    margin: 15px 10px 0 0;
+    color: #3c4043;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 14px;
+}
+
+.form_input input:hover {
+    cursor: pointer;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    border: 1px solid rgba(33,33,33,.2);
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 45px;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    color: #70757a;
+    text-decoration: none;
+    margin: 12px 12px 0 12px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_left {
+    margin-left: 20px;
+}
+
+.footer_right {
+    margin-right: 20px;
+}
+
+.footer_center {
+    margin-right: 85px;
+    margin-top: 2px;
+}
+
+.footer_center img {
+    margin-right: -10px;
+}
+
+.imgtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    margin-left: 210px;
+    margin-top: -20px;
+}
+
+.magnifying-right {
+    color: #4285f4;
+    margin-top: 6px;
+    font-size: 20px;
+    margin-left: -35px;
+    margin-right: 20px;
+    
+}
+
+.magnifying-right button {
+    all: unset;
+    cursor: pointer;
+}
+
+.fa-camera {
+    color: #787c8b;
+    margin-top: 10px;
+    font-size: 20px !important;
+    margin-right: -20px;
+}
+
+.user_input2 input{
+    height: 35px;
+    width: 350px;
+    border: 1px solid;
+    margin-left: -20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+
+/*     Advanced Page     */
+
+.advanced-logo {
+    margin-left: 5px;
+}
+
+.advanced-header {
+    font-family: 'Roboto', arial, sans-serif;
+    color: #d93025;
+    margin: 40px 0 0 40px;
+    font-size: 20px;
+}
+
+.line-break {
+    border-top: solid 1px rgb(228, 227, 227);
+    margin-top: 20px;
+}
+
+.main-top {
+    display: flex;
+    margin: 40px 0 0 40px;
+}
+
+.main1 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-top .left {
+    width: 400px;
+}
+
+.main-top .right {
+    width: 60%;
+    margin: 0 0 0 35px;
+}
+
+.main-top .middle {
+    width: 20%;
+}
+
+.main1 .left {
+    width: 200px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+.main1 input {
+    min-width: 30%;
+    height: 25px;
+    
+}
+
+.main1 .right {
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+
+
+.advanced-button {
+    background-color: #1a73e8;
+    color: rgb(233, 233, 233);
+    border: lightgray;
+    height: 30px;
+    width: 150px;
+    border-radius: 2px;
+    margin: 20px 0 0 422px;
+    font-size: 12px;
+    
+}
+
+.right-button {
+    border: solid 1px;
+    width: 1000px;
+}
+
+.advanced-button:hover {
+    cursor: pointer;
+    background-color: #4285f4 ;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main1 .right {
+        display: none;
+    }
+
+    .main-top .right {
+        display: none;
+    }
+
+    .main1 input {
+        width: 40%;
+    }
+}
