@@ -63,6 +63,7 @@ body {
     border-radius: 50px;
     border: .5px solid lightgrey;
     margin: 20px auto;
+    flex-shrink: 1;
 }
 
 .user_input input{
@@ -230,20 +231,27 @@ body {
     width: 200px;
     margin-left: 40px;
     font-size: 12px;
+    
 }
 
 .main1 input {
     min-width: 30%;
     height: 25px;
     
+    
 }
 
 .main1 .right {
     margin-left: 10px;
     font-size: 11px;
+    
 }
 
-
+.main-button {
+    min-width: 30%;
+    height: 25px;
+    
+}
 
 .advanced-button {
     background-color: #1a73e8;
@@ -252,8 +260,8 @@ body {
     height: 30px;
     width: 150px;
     border-radius: 2px;
-    margin: 20px 0 0 422px;
-    font-size: 12px;
+    font-size: 12px; 
+    float: right;
     
 }
 
@@ -279,4 +287,15 @@ body {
     .main1 input {
         width: 40%;
     }
+
+    .main-button {
+        width: 40%;
+    }
+
+
+    .footer_center {
+        display: none;
+    }
+
+    
 }
